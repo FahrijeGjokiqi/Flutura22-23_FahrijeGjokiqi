@@ -129,7 +129,7 @@ body{
     margin-right: 15px;
 }
 .register {
-    background: rgb(0, 0, 0, 0.4);
+    background: rgb(0, 0, 0, 0.8);
     width: 600px;
     max-width: 100%;
     box-sizing: border-box;
@@ -196,6 +196,29 @@ body{
 #user{
     width: 88%;
     height: 30px;
+}
+
+#uadress{
+    width:88%;
+    height: 30px;
+}
+
+.animation-background:before{
+ position: absolute;
+ top:0;
+ left:0;
+ background: url(../falling-snow-gif-transparent-background-4.png);
+ background-repeat:repeat;
+ background-position: center;
+animation: snowfall 8s linear infinite;
+content: '';
+width: 100%;
+height: 200%;
+}
+
+@keyframes snowfall{
+    0%{background-position: 0 0;}
+    100%{background-position:0 360px ;}
 }
 
 
