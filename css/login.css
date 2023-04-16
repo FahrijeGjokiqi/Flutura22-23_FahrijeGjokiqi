@@ -213,7 +213,7 @@ body{
 animation: snowfall 8s linear infinite;
 content: '';
 width: 100%;
-height: 200%;
+height: 90%;
 }
 
 @keyframes snowfall{
