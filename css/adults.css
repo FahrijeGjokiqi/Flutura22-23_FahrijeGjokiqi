@@ -173,8 +173,8 @@ padding-left: 25px;
   font-family: Comic Sans MS;
 }
 
-
-.animation-background:before{
+/*
+.animation-background::before{
     position: absolute;
     top:0;
     left:0;
@@ -190,4 +190,9 @@ padding-left: 25px;
    @keyframes snowfall{
        0%{background-position: 0 0;}
        100%{background-position:0 360px ;}
-   }
+   }*/
+
+   
+
+   
+   
