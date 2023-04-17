@@ -1,11 +1,40 @@
 * {
     margin: 0;
     padding: 0;
-
 }
 
+/*
+@media screen and (max-width: 992px) {
+    body {
+      background-color: rgb(245, 240, 232);
+    }
+  }
 
 
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: rgb(245, 240, 232);
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .header a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .feature {
+      width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .feature {
+      width: 100%;
+    }
+  }*/
 
 .main {
     background-color: rgb(245, 240, 232);
@@ -39,6 +68,13 @@
     color: orangered;
     font-family: Comic Sans MS;
 
+
+}
+
+.header a:hover {
+    border-bottom: 2px dotted black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    ;
 }
 
 .nav {
@@ -80,7 +116,7 @@
     bottom: 0;
     background-color: black;
     align-items: center;
-    
+
 }
 
 
@@ -146,6 +182,7 @@
 .image-feature img {
     width: 500px;
     height: 300px;
+
 }
 
 
@@ -176,8 +213,7 @@
 }
 
 .paragraf {
-    margin-top: 32px;
-    margin-left: 360px;
+    margin-left: 200px;
     padding-right: 30px;
     padding-left: 30px;
     padding-top: 30px;
@@ -201,7 +237,7 @@
     flex-direction: row;
     display: flex;
     margin-left: 117px;
-    
+
 }
 
 
@@ -214,7 +250,7 @@
 
 }
 
-.card-image img:hover{
+.card-image img:hover {
     background-color: orangered;
     opacity: 0.4;
     cursor: pointer;
@@ -223,49 +259,49 @@
 
 
 
-  
-  .side {
+
+.side {
     flex: 40%;
     padding: 20px;
     margin: 10px;
 
-  }
-  
-  
-  .main-1 {
+}
+
+
+.main-1 {
     flex: 60%;
     background-color: rgba(0, 0, 0, 0.2);
     padding: 25px;
     padding-top: 0;
     margin-left: 20px;
     margin-right: 20px;
-    
-  }
 
-  .main-paragraf {
+}
+
+.main-paragraf {
     color: rgb(0, 0, 0) !important;
     font-weight: bold;
     font-family: Comic Sans MS;
-  }
+}
 
-  .main-1 h1{
+.main-1 h1 {
     text-align: center;
     font-family: Comic Sans MS;
     color: orangered;
-  }
+}
 
- .read{
+.read {
     background-color: black;
     color: orangered;
     margin-left: 300px;
     border-radius: 5PX;
     width: 150px;
     padding-left: 20px;
-    
- }
-  
-  
-  .calendar {
+
+}
+
+
+.calendar {
     padding: 10px;
     height: 200px;
     display: flex;
@@ -274,27 +310,28 @@
     box-sizing: border-box;
     align-items: center;
     margin-bottom: 20px;
-  }
+}
 
-  .calendar h3{
+.calendar h3 {
     font-family: Comic Sans MS;
     font-weight: bold;
-    color:orangered;
-  }
+    color: orangered;
+}
 
-  .calendar p{
+.calendar p {
     font-family: Comic Sans MS;
     font-size: 13px;
     font-weight: bold;
-  }
-  .calendar img { 
-      width: 100px;
-      height: 60px; 
-    }
+}
+
+.calendar img {
+    width: 100px;
+    height: 60px;
+}
 
 
-    
-.footer{
+
+.footer {
     background-color: black;
     box-sizing: border-box;
     padding: 70px 0;
@@ -303,34 +340,34 @@
 
 
 
-.container{
+.container {
     max-width: 1170px;
-    background-color:black; 
+    background-color: black;
     margin: auto;
     width: 100%;
     height: auto;
 }
 
-.row-container{
+.row-container {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     margin-left: 110px;
 
-    
+
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-.footer-column{
-    width:25%;
+.footer-column {
+    width: 25%;
     padding: 0 15px;
-    
+
 }
 
-.footer-column h3{
+.footer-column h3 {
     font-size: 24px;
     color: orangered;
     text-transform: capitalize;
@@ -338,11 +375,11 @@ ul{
     font-weight: 800;
     position: relative;
     border-bottom: 1px solid;
-    
+
 }
 
 
-.footer-column ul li a{
+.footer-column ul li a {
     font-size: 16px;
     text-transform: capitalize;
     color: orangered;
@@ -351,64 +388,64 @@ ul{
     display: block;
     margin-top: 15px;
     margin-left: 35px;
-    
+
 }
 
-.mail{
+.mail {
     font-size: 16px;
     color: rgb(255, 78, 34);
     margin-bottom: 30px;
     font-weight: 300;
     position: relative;
-    
+
 }
 
-.footer-column input{
+.footer-column input {
     width: 250px;
     height: 25px;
     background-color: rgb(228, 221, 218);
     opacity: 0.8;
-    
+
 }
 
-.footer-column button{
+.footer-column button {
     width: 30px;
     height: 25px;
-   background-color: rgb(228, 221, 218);
-   opacity: 0.8;
+    background-color: rgb(228, 221, 218);
+    opacity: 0.8;
 }
 
-.footer-column .social-links a{
+.footer-column .social-links a {
     display: inline-block;
-    height:40px;
-    width:40px;
+    height: 40px;
+    width: 40px;
     background-color: rgba(252, 79, 17, 0.932);
     margin: 0 10px 10px 0;
     text-align: center;
     line-height: 40px;
-    
+
 }
 
-.footer-column .social-links i{
+.footer-column .social-links i {
     color: black;
 }
 
-.footer-column .social-links p{
+.footer-column .social-links p {
     margin-left: 50px;
     margin-top: 20px;
-    
+
 }
 
-.footer-column .social-links span{
+.footer-column .social-links span {
     margin-left: 47px;
 }
 
-.footer-column .services h3{
+.footer-column .services h3 {
     margin-left: 35px;
 }
 
 
-.footer-1{
+.footer-1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -419,11 +456,10 @@ ul{
     align-items: center;
 }
 
-.footer-rights p{
+.footer-rights p {
     font-weight: bold;
 }
 
-.footer-date{
+.footer-date {
     font-weight: bold;
 }
-
