@@ -192,6 +192,140 @@ padding-left: 25px;
        100%{background-position:0 360px ;}
    }*/
 
+       
+.footer{
+    background-color: black;
+    box-sizing: border-box;
+    padding: 70px 0;
+    width: 100%;
+}
+
+
+
+.container{
+    max-width: 1170px;
+    background-color:black; 
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+.row-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 110px;
+
+    
+}
+
+ul{
+    list-style: none;
+}
+
+.footer-column{
+    width:25%;
+    padding: 0 15px;
+    
+}
+
+.footer-column h3{
+    font-size: 24px;
+    color: orangered;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 800;
+    position: relative;
+    border-bottom: 1px solid;
+    
+}
+
+
+.footer-column ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: orangered;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    margin-top: 15px;
+    margin-left: 35px;
+    
+}
+
+.mail{
+    font-size: 16px;
+    color: rgb(255, 78, 34);
+    margin-bottom: 30px;
+    font-weight: 300;
+    position: relative;
+    
+}
+
+.footer-column input{
+    width: 250px;
+    height: 25px;
+    background-color: rgb(228, 221, 218);
+    opacity: 0.8;
+    
+}
+
+.footer-column button{
+    width: 30px;
+    height: 25px;
+   background-color: rgb(228, 221, 218);
+   opacity: 0.8;
+}
+
+.footer-column .social-links a{
+    display: inline-block;
+    height:40px;
+    width:40px;
+    background-color: rgba(252, 79, 17, 0.932);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    
+}
+
+.footer-column .social-links i{
+    color: black;
+}
+
+.footer-column .social-links p{
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+
+.footer-column .social-links span{
+    margin-left: 47px;
+}
+
+.footer-column .services h3{
+    margin-left: 35px;
+}
+
+
+.footer-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 40px;
+    width: 100%;
+    padding-top: 25px;
+    align-items: center;
+}
+
+.footer-rights p{
+    font-weight: bold;
+}
+
+.footer-date{
+    font-weight: bold;
+}
+
    
 
    
